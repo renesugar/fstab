@@ -1,0 +1,8 @@
+This program contains code to parse the MSYS /etc/fstab file and map MSYS paths to Windows paths.
+
+The parser will read the other fields in an fstab file but only fs_spec and fs_mountpoint are used to map paths.
+
+Example: /etc/fstab
+
+c:/mingw64 /mingw
+nul        /dev/null
